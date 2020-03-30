@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.5);
+}
+
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li a{
+  line-height: 80px;
+  color: brown;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav ul li a:hover {
+  background: burlywood;
+  border-radius: 4px;
+}
+
+nav ul li a.active{
+  background: #e2472f;
+  color: #c9b4b1;
+  border-radius: 4px;
+}
+
+.home {
+  width: 100%;
+  height: 90vh;
+  background: url('images/team-legal-scales-justice-lw.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.kawo {
+  margin-top: 200px;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+
+.kawo1 {
+  text-align: center;
+  color: #fff;
+}
+
+.butt {
+  margin-left: 200px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: w#337ab7;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: w#337ab7;
+}
+
+* Linkedin */
+.fa-linkedin {
+  color: #337ab7;
+}
+
+* Instagram */
+.fa-instagram {
+  color: #337ab7;
+}
+
+.text {
+  padding-top: 15px;
+}
+
+.last {
+  padding-top: 150px;
+  padding-left: 250px;
+}
+
+.sign {
+  padding: 100px;
+}
